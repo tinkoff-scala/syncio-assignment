@@ -7,8 +7,6 @@ lazy val root = (project in file("."))
   .settings(
     name := "scala-template",
     libraryDependencies ++= Seq(
-      fs2.core,
-      fs2.io,
       catsEffect,
       scalaTest % Test
     )
